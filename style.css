@@ -1,0 +1,229 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #6f2dbd;
+}
+
+button {
+    background-color: #6f2dbd;
+    color: white;
+    border: none;
+    /* padding: 10px; */
+    cursor: pointer;
+    border-radius: 16px;
+    height: 40px;
+    width: 80px;
+    transition: all 0.5s;
+    outline: none;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+}
+
+
+
+button:hover {
+    background-color: aqua;
+    box-shadow: 2px 2px 20px rgb(21, 145, 207),2px 2px 20px rgb(201, 41, 116);
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* header part */
+.nav{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    color: #333;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.navlist{
+    display: flex;
+    gap: 3rem;
+    /* color: #fff; */
+    font-size: 1rem;
+}
+
+.navlist li {
+    list-style: none;
+    font-weight: bold;
+    align-items: center;
+}
+.navlist li button i {
+    color: #fff;
+}
+
+.navlist li a {
+    color: #333;
+    text-decoration: none;
+    position: relative;
+}
+
+.navlist li i {
+    color: #6f2dbd;
+    cursor: pointer;
+}
+
+.navlist li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+.link:hover, .active{
+    border-bottom: 2px solid #333;
+}
+
+h4{
+    color: #810453;
+    cursor: pointer;
+}
+
+
+/* Catalogue Styling */
+h2 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.catalogue {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.catalogue-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*box*/
+.catalogue-grid .category {
+    width: 200px;
+    height: 300px;
+    background: linear-gradient(to bottom, #f4f4f4, #ccc);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-radius: 10px;
+}
+
+.card-content {
+    margin-top: 5%;
+}
+.card-content h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card-content p {
+    color: grey;
+}
+
+
+/* nav */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust the logo size */
+    height: auto;
+    margin-right: 10px;
+}
+
+.h1 {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: normal;
+}
+
+hr {
+    width: 80%;  /*Adjust the line length*/
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin-left: 20px; /* Align with the logo and text */
+}
+
+
+
+/* Footer Styling */
+footer {
+    background-color: #fff;
+    /* color: white; */
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    color: rgb(5, 65, 167);
+}
+
+.links h3 {
+    color: rgb(5, 65, 167);
+}
+
+.footer-content h3 {
+    margin-bottom: 15px;
+    /* color: rgb(5, 65, 167); */
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    line-height: 25px;
+}
+
+.para {
+    color: grey;
+    padding-top: 15px;
+}
+
+footer .info, footer .contact, footer .links, footer .find-us {
+    width: 23%;
+}
+
+
